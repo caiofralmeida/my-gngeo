@@ -1,0 +1,95 @@
+# Configuração do GNGEO
+
+# Onde se encontra a libGL.so
+libglpath /usr/lib/x86_64-linux-gnu/mesa/libGL.so
+
+# Onde se encontram seus roms e bios
+rompath /home/caioalmeida/roms
+
+# Este é o arquivo de drive
+romrc /usr/local/share/gngeo/romrc
+
+biospath /usr/local/share/gngeo
+
+# Jogar em tela cheia?
+fullscreen false
+
+# Qual blitter?
+# soft
+# opengl
+# yuv
+blitter soft
+
+# Qual efeito?
+# none
+# scanline
+# scanline50
+# scale2x
+# scale2x50
+# scale2x75
+# doublex
+
+#### Este efeitos são esperimentais e só rodam em um i386
+
+# sai
+# supersai
+# eagle
+effect none
+
+# Habilitar interrupção raster?
+raster false
+
+# Aumentar janela "n" vezes
+scale 2
+
+# Habilitar interpolação entre frames?
+interpolation false
+
+# Som?
+sound true
+
+# Mostrar Frames por segundo?
+showfps false
+
+# COntrole de auto frame skip?
+autoframeskip true
+
+sleepidle false
+
+# Habilitar suporte a joystick
+joystick true
+
+# Enable the 68k inline debuger (disable sound)
+debug false
+
+# Use hardware surface for screen
+hwsurface false
+
+# Convert all tile at loading time
+convtile true
+
+# Use PAL timming (buggy)
+pal false
+
+# Inverter joystick?
+invertjoy false
+
+# Sample rate
+samplerate 44100
+
+# País?
+# japan, usa, europe
+country brazil
+
+# Tipo de sistema? (arcade, home )
+system arcade
+
+# Configuração de joystick
+# order : A,B,C,D,START,COIN,AXE_X,AXE_Y
+p1joy    3,2,6,0,9,8,0,1
+p2joy    4,4,4,4,4,4,4,4
+
+# Configuração de teclas
+# order : A,B,C,D,START,COIN,UP,DOWN,LEFT,RIGHT
+#p1key    97,115,122,120,49,51,273,274,276,275
+p2key    108,109,111,112,50,52,264,261,260,26
