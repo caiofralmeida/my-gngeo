@@ -3,4 +3,4 @@
 Emulador NeoGeo para Linux.
 
 - Configurações
-- - ~/.gngeo/gngeorc
+  - ~/.gngeo/gngeorc
